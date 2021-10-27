@@ -1,0 +1,7 @@
+pika 
+python-dotenv 
+redis 
+uuid 
+numpy
+graypy
+mtcnn
