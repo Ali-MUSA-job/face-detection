@@ -17,5 +17,3 @@ RUN set -eux; \
 COPY ./ /usr/src/app
 
 CMD ["python3","/usr/src/app/main.py"]
-
-## docker run  --gpus=all -d --restart=always  --name face-detect-gpu-container   -e RABBITMQ_HOST=192.168.10.94     -e REDIS_HOST=192.168.10.94    -e REDIS_PORT=6379   -e RABBIT_OUTPUT_QUEUE=face_queue  -e  RABBIT_INPUT_QUEUE=frame_queue -e LOG_LEVEL=INFO face-detect-gpu-image
